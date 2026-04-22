@@ -1,1 +1,51 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f3ee;
+  margin: 0;
+}
 
+header {
+  background-color: #5a3e2b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #8c5a3c;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* PSEUDO CLASS */
+nav a:hover {
+  color: #ffd700;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #5a3e2b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
